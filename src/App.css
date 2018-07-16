@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.show {
+  opacity: 1;
+}
+
+.hide {
+  opacity: 0;
+}
+
+.error {
+  background: #e0a1a1;
+  padding: 12px;
+  transition: all 1s ease-out;
+}
+
+.counter {
+  margin: 12px;
+}
+
+.counter button{
+  margin: 4px 25px;
+  padding: 3px 22px;
+}
+
+.chatPage {
+
+}
+
+.chatBox {
+  width: 150px;
+  height: 180px;
+  display: inline-block;
+  margin: 12px;
+}
+.chatHeader {
+  border-bottom: 1px solid #ddd;
+}
+.chatPad {
+  height: 160px;
+}
+.chatInput {
+  border-top: 1px solid #ddd;
+}
+.chatPad .left {
+  text-align: left;
+}
+.chatPad .right {
+  text-align: right;
+}
+.msgbox .msg{
+  background: #f3f3f3;
+  padding: 2px 12px;
+  border-radius: 4px;
+  margin: 6px 12px;
+  display: inline-block;
+  color: #666;
+}
